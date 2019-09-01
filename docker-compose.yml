@@ -1,0 +1,8 @@
+version: '3'
+services:
+  crowd:
+    image: "crowd:3.0.0"
+    #volumes:
+      #- /mnt/drive_150g/crowd/home/:/CROWD/crowd-home
+      #- /mnt/drive_150g/crowd/install-dir/:/CROWD/atlassian-crowd-3.0.0
+    network_mode: host
